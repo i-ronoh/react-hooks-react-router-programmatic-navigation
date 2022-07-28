@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
@@ -21,7 +22,7 @@ function Login({ setIsLoggedIn }) {
     setIsLoggedIn(true);
 
     // after logging the user in, redirect to the home page!
-    history.push("/");
+    history.push("/home");
   }
 
   return (
